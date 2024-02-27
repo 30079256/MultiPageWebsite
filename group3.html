@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <!-- Name: Olga Selezneva
+         ID: 30079256
+         Date: 21/02/2024
+         Task: Assessment Task One -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Definitions</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">        
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="questions.html" class="nav-item nav-link">Questions</a>
+                        <a href="definitions.html" class="nav-item nav-link">Definitions</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>   
+        <div class="container">
+            <div class="shadow p-5 my-4 bg-light rounded-3">        
+                <h1>Definitions</h1><br>
+
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne">
+                                Authentication and web security
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Authentication is the process of determining whether someone or something is who or what they say they are. Web security refers to the protective measures and protocols that organizations adopt to protect against web-based threats.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                Hypertext transfer protocol (HTTP)
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web and is used to load webpages using hypertext links.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                Session management
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                Session management refers to handling multiple requests and responses from a user or entity on a website or web application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                                Stateless programming
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                In a stateless program, the program doesn't maintain a state. Instead of maintaining a separate state, the data required for the function to execute are passed as inputs (the program should have value semantics). 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
